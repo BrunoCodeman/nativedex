@@ -17,4 +17,8 @@ export class HomeComponent implements OnInit {
         * Use the "ngOnInit" handler to initialize data for the view.
         *************************************************************/
     }
+    // tslint:disable-next-line:no-empty
+    olaAngular(): void {
+        alert("olá, angular");
+    }
 }
